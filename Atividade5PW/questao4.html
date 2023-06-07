@@ -1,0 +1,27 @@
+<!-- Crie outro script baseando em um seguro de vida com as seguintes regras:
+Idade:		Grupo de Risco
+18 a 24 		- Baixo
+25 a 40 		- Médio
+41 a 70		- Alto -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        let idade = Number(prompt("Quantos anos você tem?"))
+        if (idade >= 18 && idade <= 24) {
+            alert("Grupo de Risco = Baixo")
+        } else if (idade >= 24 && idade <= 40) {
+            alert("Grupo de Risco = Médio")
+        } else if (idade >= 41 && idade <= 70) {
+            alert("Grupo de Risco = Alto")
+        }
+    </script>
+</body>
+
+</html>

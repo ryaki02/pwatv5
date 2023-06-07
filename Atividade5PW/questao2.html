@@ -1,0 +1,35 @@
+<!-- Faça um script em JavaScript que receba a idade de um nadador (representada por uma variável chamada “idade”)
+ e imprima a sua categoria seguindo as regras:
+
+Infantil A
+5 a 7 anos
+Infantil B
+8 a 10 anos
+Juvenil A
+11 a 13 anos
+Juvenil B
+14 a 17 anos -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+</head>
+
+<body>
+    <script>
+        let idade = Number(prompt("Qual a sua idade?"))
+        if (idade >= 5 && idade <= 7) {
+            alert("Infantil A")
+        } else if (idade >= 8 && idade <= 10) {
+            alert("Infantil B")
+        } else if (idade >= 11 && idade <= 13) {
+            alert("Juventil A")
+        } else if (idade >= 14 && idade <= 17) {
+            alert("Juventil B")
+        }
+    </script>
+</body>
+
+</html>
